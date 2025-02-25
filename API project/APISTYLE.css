@@ -9,10 +9,12 @@ body {
 .container {
     max-width: 500px;
     margin: 50px auto;
-    padding: 20px;
-    background: #3D405B;
+    background: white;
+    border-style: solid;
+    border-color: #aa0c0cbb;
+    border-width: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 input {
@@ -26,7 +28,7 @@ input {
 button {
     padding: 10px 20px;
     border: none;
-    background: #007BFF;
+    background: #F2B185;
     color: white;
     border-radius: 5px;
     cursor: pointer;
